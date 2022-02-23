@@ -1,0 +1,43 @@
+
+/* selector universal */
+* {
+    margin: 0px;
+}
+
+/*selector de elemento*/
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*selector de clase */
+.quintaParte{
+    height: 20%;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	
+}
+.data { visibility: hidden; }
+
+.botonP {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#f2595e;
+    border-color: #F69DA1;
+    border-width: 3px;
+    border-style: solid;
+    }
+
+main{
+    background-color: #ee7190;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Programación web</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+	<script src="index_UI.js"></script>
+</head>
+<body>
+
+
+	<main class="quintaParte">
+		<form action="php/listener.php" method="GET">
+			<br><br>
+			<center><h1>Interfaz web para crear un objeto JSON</h1></center>
+			<br><br><br>
+			<label for="label1">Ingresa tu matricula  </label><input type="text" name= "matricula" id = "matricula"><br><br> <!-- El "name lo deben llevar todos si quieren viajar al servidor" -->
+			<label for="label2">Ingresa el nombre del alumno </label><input type="text" name= "alumno" id = "alumno"><br><br>
+			<label for="label3">Elige el semestre  </label><select name="semestre" id="semestre">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+			</select><br><br>
+			<label for="label4">Coloca la calificación de programación </label><input type="text" name= "Programación" id = "Programacion"><br><br>
+			<label for="label5">Coloca la calificación de matemáticas </label><input type="text" name= "Matematicas" id = "Matematicas"><br><br>
+			<label for="label6">Coloca la calificación de fisica </label><input type="text" name= "Fisica" id = "Fisica"><br><br>
+			<label for="label7">Coloca la calificación de redes </label><input type="text" name= "Redes" id = "Redes"><br><br>
+			<label for="label8">Coloca la calificación de investigación  </label><input type="text" name= "Investigacion" id = "Investigacion"><br><br>
+			
+			<button id="boton" class="botonP">Enviame</button>
+			<input type="text" class="data" name = "data" id="data"><br>
+		</form>
+	   <!--  <p>Parrafo interno en main</p> -->
+	</main>
+
+</body>
+
+</html>
